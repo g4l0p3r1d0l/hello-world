@@ -1,11 +1,11 @@
 #include <iostream>
 #include <string>
-using namespace std;
 
+// Основная функция программы
 int main() {
-    string name;
-    cout << "Enter your name: ";
-    cin >> name;
-    cout << "Hello world from " << name << "!" << endl;
+    std::string name;                           // Переменная для имени
+    std::cout << "Enter your name: ";           // Запрос имени
+    std::cin >> name;                           // Ввод имени
+    std::cout << "Hello world from " << name << "!" << std::endl;
     return 0;
 }
