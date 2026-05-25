@@ -2,6 +2,8 @@
 #include <string>
 
 // Основная функция программы
+
+//различие в файле для конфлкита
 int main() {
     std::string name;                           // Переменная для имени
     std::cout << "Enter your name: ";           // Запрос имени
